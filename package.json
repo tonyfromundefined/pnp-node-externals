@@ -1,0 +1,7 @@
+{
+  "name": "pnp-node-externals",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Tony <jeehyukwon@gmail.com>",
+  "license": "MIT"
+}
