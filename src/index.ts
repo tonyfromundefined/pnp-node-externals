@@ -1,6 +1,4 @@
-import {
-  ExternalsFunctionElement
-} from 'webpack'
+import { ExternalsFunctionElement } from 'webpack'
 import path from 'path'
 
 const pnp = require('pnpapi')
