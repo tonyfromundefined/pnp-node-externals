@@ -1,7 +1,7 @@
 {
   "name": "pnp-node-externals",
-  "version": "0.1.0",
-  "main": "index.js",
+  "version": "0.1.1",
+  "main": "lib/index.js",
   "author": "Tony <jeehyukwon@gmail.com>",
   "files": [
     "lib"
