@@ -6,7 +6,7 @@ const pnp = require('pnpapi')
 const { packageLocation } = pnp.getPackageInformation(pnp.topLevel)
 
 export = function pnpNodeExternals(options?: {}): ExternalsFunctionElement {
-  return function filter(context, request, callback) {
+  return function filter({ context, request }, callback) {
     try {
       const resolution = pnp.resolveToUnqualified(request, context, {
         considerBuiltins: false,
